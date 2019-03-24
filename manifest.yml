@@ -1,0 +1,7 @@
+applications:
+  - name: ws-flare-test-server-golang
+    memory: 16M
+    health-check-type: process
+    file: ./test-server-golang
+    command: ./test-server-golang
+    buildpack: binary_buildpack
